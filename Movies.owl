@@ -1,0 +1,1741 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies">
+        <rdfs:comment>A movies ontology that descries various movies based on their major cast and crew members.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#hasRatingOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#hasRatingOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AFistfulOfDollars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AFistfulOfDollars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AQuietPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AQuietPlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AStarIsBorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AStarIsBorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionGenre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlPacino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlPacino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlecBaldwin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlecBaldwin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnimationGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnimationGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnnaMariaSieklucka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnnaMariaSieklucka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArabianNights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArabianNights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArnieHammer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArnieHammer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArtParkinson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArtParkinson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AshVsTheEvilDead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AshVsTheEvilDead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Avengers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Avengers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BadBoys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BadBoys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BadMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BadMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BatmanBegins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BatmanBegins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BenAffleck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BenAffleck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BillMurray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BillMurray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BossBaby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BossBaby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BradleyCooper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BradleyCooper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceGreenwood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceGreenwood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceWillis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceWillis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BryanCranston -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BryanCranston">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Capone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Capone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Casablanca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Casablanca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cast"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChadwickBoseman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChadwickBoseman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisEvans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisEvans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisHemsworth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisHemsworth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisPratt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisPratt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChristianBale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChristianBale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ClintEastwood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ClintEastwood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Clue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Clue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Coraline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Coraline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Crew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Crew"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DakotaFanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DakotaFanning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DanielCraig -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DanielCraig">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadpool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadpool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadwood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadwood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DenzelWashington -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DenzelWashington">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnimationGenre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DoctorSleep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DoctorSleep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Dunkirk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Dunkirk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EmmaStone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EmmaStone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EwanMcGregor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EwanMcGregor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ExcellentScore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ExcellentScore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Music"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ExcellentSoundtrack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ExcellentSoundtrack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ExcellentSoundtrack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Extraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Extraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FantasticMr.Fox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FantasticMr.Fox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FionnWhitehead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FionnWhitehead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForAFewDollarsMore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForAFewDollarsMore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Frozen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Frozen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GaelGarciaBernal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GaelGarciaBernal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GameNight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GameNight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeClooney -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeClooney">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeMcKay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeMcKay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Gifted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Gifted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Glass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Glass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Godfather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Godfather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GoodMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GoodMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GreatestShowman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GreatestShowman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GroundhogDay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GroundhogDay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GuardiansOfTheGalaxy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GuardiansOfTheGalaxy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hamilton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hamilton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HarrisonFord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HarrisonFord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Her -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Her">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HighSchoolMusical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HighSchoolMusical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HomeAlone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HomeAlone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorGenre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HughJackman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HughJackman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IdinaMenzel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IdinaMenzel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IkoUwais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IkoUwais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IndianaJonesAndTheRaidersOfTheLostArk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IndianaJonesAndTheRaidersOfTheLostArk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Inferno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Inferno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IngridBergman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IngridBergman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Insidious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Insidious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Interstellar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Interstellar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IsleOfDogs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IsleOfDogs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JasonBateman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JasonBateman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoaquinPhoenix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoaquinPhoenix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoelKinnaman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoelKinnaman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JohnDavidWashington -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JohnDavidWashington">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JonHall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JonHall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JustinFletcher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JustinFletcher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KnivesOut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KnivesOut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KuboAndTheTwoStrings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KuboAndTheTwoStrings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LaLaLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LaLaLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeonardoDiCaprio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeonardoDiCaprio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Leprechaun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Leprechaun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LightsOut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LightsOut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Lin-ManuelMiranda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Lin-ManuelMiranda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LittleWomen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LittleWomen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#M -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#M">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MacalayCulkin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MacalayCulkin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MagnificentSeven -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MagnificentSeven">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MarkWahlberg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MarkWahlberg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MattDamon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MattDamon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MatthewMcConaughey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MatthewMcConaughey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Megamind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Megamind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MenInBlack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MenInBlack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MichaelCera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MichaelCera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Music"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NithiinMeghaAkashArjunSarja -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NithiinMeghaAkashArjunSarja">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Non-Stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Non-Stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NoraGregor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NoraGregor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#OwenWilson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#OwenWilson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ParanormalActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ParanormalActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Parasite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Parasite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Paul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Paul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RebelWilson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RebelWilson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RobertDowneyJr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RobertDowneyJr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RulesOfTheGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RulesOfTheGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RyanReynolds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RyanReynolds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SallyHawkins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SallyHawkins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SamuelLJackson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SamuelLJackson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SaoirseRonan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SaoirseRonan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActress"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScottPilgrimVsTheWorld -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScottPilgrimVsTheWorld">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SethRogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SethRogen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShaunTheSheepMovie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShaunTheSheepMovie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Shazam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Shazam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShutterIsland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShutterIsland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SimonPegg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SimonPegg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SongKang-ho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SongKang-ho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StepBrothers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StepBrothers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StopMotionAnimationGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Superbad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Superbad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Tenet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Tenet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheAccountant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheAccountant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheGoodTheBadAndTheUgly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheGoodTheBadAndTheUgly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheHangover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheHangover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheInformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheInformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheLie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheLie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheManFromUncle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheManFromUncle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionAdventureGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheMartian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheMartian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheOtherGuys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheOtherGuys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRaidRedemption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRaidRedemption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorJumpScareGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheShapeOfWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheShapeOfWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheVelocipastor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheVelocipastor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimCurry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimCurry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimothyOlyphant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimothyOlyphant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHanks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHanks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHardy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHardy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TommyLeeJones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TommyLeeJones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WhatWeDoInTheShadows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WhatWeDoInTheShadows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillFerrell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillFerrell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillSmith -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillSmith">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacEfron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacEfron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacharyLevi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacharyLevi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeadActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Zombieland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Zombieland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#blackhat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#blackhat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#1917 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#1917">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#21Bridges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#21Bridges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#365Days -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#365Days">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Batman:DeathInTheFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Batman:DeathInTheFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DigitalAnimationGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hitman&apos;sBodyguard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hitman&apos;sBodyguard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionComedyGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AFistfulOfDollars"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadwood"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForAFewDollarsMore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MagnificentSeven"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheGoodTheBadAndTheUgly"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AQuietPlace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Insidious"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LightsOut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ParanormalActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AStarIsBorn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GreatestShowman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hamilton"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HighSchoolMusical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LaLaLand"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ActionGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnimationGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ComedyGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#CrimeGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DramaGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ForeignGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HorrorGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MusicalGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MysteryGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RomanceGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScienceFictionGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ThrillerGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WesternGenre"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlPacino"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AlecBaldwin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArnieHammer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArtParkinson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BenAffleck"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BillMurray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BradleyCooper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceGreenwood"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BruceWillis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BryanCranston"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChadwickBoseman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisEvans"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisHemsworth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChrisPratt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ChristianBale"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ClintEastwood"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DanielCraig"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DenzelWashington"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EwanMcGregor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FionnWhitehead"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GaelGarciaBernal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeClooney"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GeorgeMcKay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HarrisonFord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HughJackman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IkoUwais"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JasonBateman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoaquinPhoenix"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JoelKinnaman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JohnDavidWashington"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JonHall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#JustinFletcher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LeonardoDiCaprio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Lin-ManuelMiranda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MacalayCulkin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MarkWahlberg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MattDamon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MatthewMcConaughey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MichaelCera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NithiinMeghaAkashArjunSarja"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#OwenWilson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RobertDowneyJr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RyanReynolds"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SamuelLJackson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SethRogen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SimonPegg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SongKang-ho"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimCurry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TimothyOlyphant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHanks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TomHardy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TommyLeeJones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillFerrell"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WillSmith"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacEfron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ZacharyLevi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AnnaMariaSieklucka"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DakotaFanning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#EmmaStone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IdinaMenzel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IngridBergman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#NoraGregor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RebelWilson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SallyHawkins"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#SaoirseRonan"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ArabianNights"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#M"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Parasite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#RulesOfTheGame"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheRaidRedemption"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#AshVsTheEvilDead"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Leprechaun"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheVelocipastor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#WhatWeDoInTheShadows"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Zombieland"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Avengers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BatmanBegins"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GuardiansOfTheGalaxy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IndianaJonesAndTheRaidersOfTheLostArk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheManFromUncle"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BadBoys"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Deadpool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GameNight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Shazam"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Hitman&apos;sBodyguard"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#BossBaby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cars"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Frozen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Megamind"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Batman:DeathInTheFamily"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Capone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Godfather"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheAccountant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#blackhat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#21Bridges"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Casablanca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#GroundhogDay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Her"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ScottPilgrimVsTheWorld"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheShapeOfWater"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Cast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Crew"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Movies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Music"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Clue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Inferno"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KnivesOut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Non-Stop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShutterIsland"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Coraline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#FantasticMr.Fox"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#IsleOfDogs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#KuboAndTheTwoStrings"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#ShaunTheSheepMovie"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#DoctorSleep"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Extraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Glass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheInformer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheLie"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Dunkirk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Gifted"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#LittleWomen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#1917"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#365Days"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#HomeAlone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#StepBrothers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Superbad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheHangover"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheOtherGuys"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Interstellar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#MenInBlack"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Paul"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#Tenet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeffchampagne/ontologies/2020/10/movies#TheMartian"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
